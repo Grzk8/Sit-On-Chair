@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>Projekt strony1</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link href="css/fontawesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 <header>
@@ -29,7 +31,14 @@
     <article class="article1">
 
         <div class="chair1">
-             <img src="images/black_chair.png">
+            <div class="arrow">
+                <div class="btn-prev"> <i class="fas fa-angle-left"></i></div>
+            </div>
+            <ul class="list">
+                <li><img src="images/black_chair.png"></li>
+                <li><img src="images/orange_chair.png"></li>
+                <li><img src="images/red_chair.png"></li>
+            </ul>
         </div>
 
         <div class="text1">
@@ -39,6 +48,9 @@
             </div>
             <a id="button" heref="">ZOBACZ WIĘCEJ
             </a>
+        </div>
+        <div class="arrow">
+            <div class="btn-next"> <i class="fas fa-angle-right"></i></div>
         </div>
     </article>
 
@@ -123,5 +135,7 @@
 <footer>
 
 </footer>
+
+<script src="js/app.js" type="text/javascript"></script>
 </body>
 </html>

@@ -62,8 +62,6 @@ a{
 .listItem:hover > .sublist {
     display: block;
     text-align: center;
-
-
 }
 
 .article1{
@@ -71,6 +69,21 @@ a{
     margin: 0 auto;
     width: 1200px;
     background-image: linear-gradient(to top, rgba(29, 39, 58, 0.96), #e7f3f6, #f5ffff, #f7fcf9, #f6f8f2);
+}
+.arrow{
+    height: 60px;
+    width: 60px;
+}
+.fa-angle-left, .fa-angle-right{
+    font-size: 60px;
+    color: red;
+}
+.chair1 ul li{
+    display: none;
+}
+.list{
+    width: 400px;
+    height: 500px;
 }
 #button{
 
