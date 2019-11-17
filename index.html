@@ -4,65 +4,72 @@
     <meta charset="UTF-8">
     <title>Projekt strony1</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link href="css/fontawesome.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
 <header>
-    <div id="logo">SIT <span class="logo-on">ON</span> CHAIR</div>
-    <div>
-        <ul class="firstList">
-            <li class="listItem"><a href="">O FIRMIE</a>
-                <ul class="sublist">
-                    <li class="sublistItem"><a href="">Aktualności</a></li>
-                    <li class="subListItem"><a href="">Nasz team</a></li>
-                    <li class="subListItem"><a href="">Historia</a></li>
-                </ul>
-            </li>
-            <li class="listItem"><a href="">GALERIA</a></li>
-            <li class="listItem"><a href="">KONTAKT</a></li>
-        </ul>
+    <div class="container">
+        <div id="logo">SIT <span class="logo-on">ON</span> CHAIR</div>
+        <div>
+            <ul class="firstList">
+                <li class="listItem"><a href="">O FIRMIE</a>
+                    <ul class="sublist">
+                        <li class="sublistItem"><a href="">Aktualności</a></li>
+                        <li class="subListItem"><a href="">Nasz team</a></li>
+                        <li class="subListItem"><a href="">Historia</a></li>
+                    </ul>
+                </li>
+                <li class="listItem"><a href="">GALERIA</a></li>
+                <li class="listItem"><a href="">KONTAKT</a></li>
+            </ul>
+        </div>
     </div>
 </header>
 
 <main>
 
     <article class="article1">
-
-        <div class="chair1">
+        <div class="containerAr1">
             <div class="arrow">
-                <div class="btn-prev"> <i class="fas fa-angle-left"></i></div>
+                <div class="btn-prev"> <i class="fas fa-angle-left"><</i></div>
             </div>
-            <ul class="list">
-                <li><img src="images/black_chair.png"></li>
-                <li><img src="images/orange_chair.png"></li>
-                <li><img src="images/red_chair.png"></li>
-            </ul>
-        </div>
+            <div class="chair1">
 
-        <div class="text1">
-            <h class="title1">SIT <span class="logoon">ON</span> OUR <span class="logoon">CHAIR</span>
-            </h>
-            <div class="mainText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, quos.Corporis eos eum optio placeat quod repellendus sed sint ullam unde, voluptas!
+                <ul class="list">
+                    <li><img src="images/black_chair.png"></li>
+                    <li><img src="images/orange_chair.png"></li>
+                    <li><img src="images/red_chair.png"></li>
+                </ul>
             </div>
-            <a id="button" heref="">ZOBACZ WIĘCEJ
-            </a>
-        </div>
-        <div class="arrow">
-            <div class="btn-next"> <i class="fas fa-angle-right"></i></div>
+
+            <div class="text1">
+                <h class="title1">SIT <span class="logo-on">ON</span> OUR <span class="logo-on">CHAIR</span>
+                </h>
+                <div class="mainText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, quos.Corporis eos eum optio placeat quod repellendus sed sint ullam unde, voluptas!
+                </div>
+                <a  id="button" href="#">ZOBACZ WIĘCEJ</a>
+            </div>
+            <div class="arrow">
+                <div class="btn-next"> <i class="fas fa-angle-right">></i></div>
+            </div>
         </div>
     </article>
 
     <article class="article2">
         <div class="image1">
             <div class="product1">
-                <h1 class="product-name">Chair CLAIR</h1>
+                <div class="bckg">
+                    <h1 class="product-name clair">Chair CLAIR</h1>
+                </div>
             </div>
         </div>
         <div class="image2">
             <div class="product2">
-                <h1 class="product-name">Chair MARGARITA</h1>
+                <div class="bckg">
+                    <h1 class="product-name margarita">Chair MARGARITA</h1>
+                </div>
             </div>
         </div>
         <div class="image3">
@@ -90,7 +97,7 @@
                 <div class="add1">Zakup towaru + dowóz</div>
                 <div class="add2">Serwis</div>
                 </div>
-                <div class="button btn1">DOŁĄCZ</div>
+                <div class="button btn1"><a href="#">Dołącz</a></div>
             </div>
             <div class="section2">
                 <div class="circleSmall2"></div>
@@ -107,7 +114,7 @@
                 <div class="add2">Serwis</div>
                 <div class="add1">Gwarancja 5 lat</div>
                 </div>
-                <div class="button btn2">DOŁĄCZ</div>
+                <div class="button btn2"><a href="#">Dołącz</a></div>
             </div>
             <div class="section3">
                 <div class="circleSmall"></div>
@@ -125,13 +132,19 @@
                 <div class="add1">Gwarancja 5 lat</div>
                 <div class="add2">Porady projektanta</div>
                 </div>
-                <div class="button btn1">DOŁĄCZ</div>
+                <div class="button btn1"><a href="#">Dołącz</a></div>
             </div>
         </div>
 
     </article>
+    <section class="application ">
+        <div class="main_width">
+            <section class="choice_part inline">
 
+
+        </div>
 </main>
+
 <footer>
 
 </footer>

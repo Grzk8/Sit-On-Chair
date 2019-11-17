@@ -40,3 +40,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 })
 
+
+var clair = document.querySelector(".image1");
+
+clair.addEventListener('mouseover',function () {
+    clair.firstElementChild.classList.add("hide-name");
+});
+
+clair.addEventListener('mouseout',function () {
+    clair.firstElementChild.classList.remove("hide-name");
+});
+
+var margarita = document.querySelector(".image2");
+
+margarita.addEventListener('mouseover',function () {
+    margarita.firstElementChild.classList.add("hide-name");
+});
+
+margarita.addEventListener('mouseout',function () {
+    margarita.firstElementChild.classList.remove("hide-name");
+});
